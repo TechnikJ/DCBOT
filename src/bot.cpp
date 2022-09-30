@@ -12,6 +12,8 @@ void DCbot::master(){
 
     bot.on_log(dpp::utility::cout_logger());
 
+    bot.
+
     bot.on_slashcommand([](const dpp::slashcommand_t& event) {
         if(event.command.get_command_name()=="ping"){
             event.reply("Pong!");
@@ -27,4 +29,8 @@ void DCbot::master(){
     });
 
     bot.start(dpp::st_wait);
+}
+
+void DCbot::juli(dpp::cluster bot){
+    bot.
 }

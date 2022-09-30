@@ -1,2 +1,3 @@
 src/token.hpp
 build/
+.vscode/
